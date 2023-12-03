@@ -6,6 +6,7 @@
   "author": "sirok1",
   "scripts": {
     "dev": "vite",
+    "dev:replit": "vite --host 0.0.0.0",
     "build": "tsc && vite build",
     "lint": "eslint vite-project --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
