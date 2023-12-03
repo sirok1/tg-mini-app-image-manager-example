@@ -1,5 +1,4 @@
 import React, {ChangeEventHandler} from "react";
-
 export default function Dragger({children, fileType, onChange}:{children:React.ReactNode, fileType:string, onChange?:ChangeEventHandler<HTMLInputElement>}) {
     return(
         <span className="upload-wrapper">
